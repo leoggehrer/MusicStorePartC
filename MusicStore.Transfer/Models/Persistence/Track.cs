@@ -1,14 +1,14 @@
-//@CodeCopy
+﻿//@BaseCode
 //MdStart
 using System;
 
-namespace MusicStore.Logic.Entities.Persistence
+namespace MusicStore.Transfer.Models.Persistence
 {
     /// <summary>
-    /// Implements the properties and methods of track model.
+    /// Implements the properties and methods of identifiable model.
     /// </summary>
     [Serializable]
-    partial class Track : IdentityObject, Contracts.Persistence.ITrack
+    public class Track : TransferObject, Contracts.Persistence.ITrack
     {
         public int AlbumId { get; set; }
         public int GenreId { get; set; }
@@ -32,9 +32,6 @@ namespace MusicStore.Logic.Entities.Persistence
             Bytes = other.Bytes;
             UnitPrice = other.UnitPrice;
         }
-
-		public Album Album { get; set; }
-		public Genre Genre { get; set; }
     }
 }
-//MdStart
+//MdEnd

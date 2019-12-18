@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Persistence\" />
+    <ProjectReference Include="..\MusicStore.Contracts\MusicStore.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

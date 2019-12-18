@@ -1,15 +1,13 @@
-//@CodeCopy
+﻿//@BaseCode
 //MdStart
 using System;
-using System.Collections.Generic;
 
-namespace MusicStore.Logic.Entities.Persistence
+namespace MusicStore.Transfer.Models.Persistence
 {
     /// <summary>
-    /// Implements the properties and methods of album model.
+    /// Implements the properties and methods of identifiable model.
     /// </summary>
-    [Serializable]
-    partial class Album : IdentityObject, Contracts.Persistence.IAlbum
+    public class Album : TransferObject, Contracts.Persistence.IAlbum
     {
         public int ArtistId { get; set; }
         public string Title { get; set; }
@@ -23,8 +21,6 @@ namespace MusicStore.Logic.Entities.Persistence
             ArtistId = other.ArtistId;
             Title = other.Title;
         }
-		public Artist Artist { get; set; }
-		public IEnumerable<Track> Tracks { get; set; }
     }
 }
 //MdEnd

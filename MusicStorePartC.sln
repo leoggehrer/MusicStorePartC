@@ -22,6 +22,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStore.WebApi", "MusicS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonBase", "CommonBase\CommonBase.csproj", "{59DE507F-5EE7-4F90-A5F9-5B670899E595}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStore.Transfer", "MusicStore.Transfer\MusicStore.Transfer.csproj", "{4D65DBC5-1032-4C77-80AD-C0D6CA06C07A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{59DE507F-5EE7-4F90-A5F9-5B670899E595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59DE507F-5EE7-4F90-A5F9-5B670899E595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59DE507F-5EE7-4F90-A5F9-5B670899E595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D65DBC5-1032-4C77-80AD-C0D6CA06C07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D65DBC5-1032-4C77-80AD-C0D6CA06C07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D65DBC5-1032-4C77-80AD-C0D6CA06C07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D65DBC5-1032-4C77-80AD-C0D6CA06C07A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
